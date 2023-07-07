@@ -1,18 +1,14 @@
 import React from "react";
 import Home from "./screens/home/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Home/>
-    </>
-  //   <Routes>
-  //   <Route exact path="/" element={<HomePage   />} />
-  //   <Route path="/fellowship" element={ <Fellowship/>} />
-  //   <Route path="/work" element={ <Work/> } />
-  //   <Route path='/fellowship-faq' element={<FellowShipFAQ/>}/>
-  //   <Route path='/partners' element={<Partners/>}/>
-  // </Routes>
+     <Routes>
+       <Route exact path="/" element={<Home/>} />
+    </Routes>
+    </>  
   );
 }
 

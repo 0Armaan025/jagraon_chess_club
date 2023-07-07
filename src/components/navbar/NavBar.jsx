@@ -36,10 +36,17 @@ const NavBar = () => {
         <li><a class="dropdown-item" href="#">Questions? mail us</a></li>
           </ul>
         </li>
-       
+        <div className="spacer"></div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/20625/avatar-bg.png" height="30px" width="30px"/>
+          </a>
+        </li>
       </ul>
       
+    
     </div>
+    
   </div>
 </nav>
 </div>
