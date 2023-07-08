@@ -182,7 +182,7 @@ body {
 }
 
 .card:hover {
-  height: 500px;
+  height: 400px;
   width: 400px;
 }
 
@@ -205,6 +205,9 @@ body {
   transition: 0.3s;
   background-color: transparent;
 }
+
+.content:hover {}
+
 .content h2 {
   background-color: transparent;
 }
