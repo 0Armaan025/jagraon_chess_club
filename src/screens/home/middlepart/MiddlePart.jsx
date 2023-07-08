@@ -76,43 +76,7 @@ const MiddlePart = () => {
           </h2>
           <br />
           <br/>
-          <div className="testimonials">
-            <div className="testimonialrow">
-              <div className="card">
-                <div className="imgbox">
-                  <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                </div>
-                <br />
-                <div className="content">
-                  <h2>Testimonial Title</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat et excepturi quibusdam. Vel sunt assumenda illo dicta officia soluta? Nam saepe harum consequuntur beatae unde consectetur iusto officiis ipsam.</p>
-                </div>
-              </div>
-              <div className="card">
-                <div className="imgbox">
-                  <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                </div>
-                <br />
-                <div className="content">
-                  <h2>Testimonial Title</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat et excepturi quibusdam. Vel sunt assumenda illo dicta officia soluta? Nam saepe harum consequuntur beatae unde consectetur iusto officiis ipsam.</p>
-                </div>
-              </div>
-              
-              <div className="card">
-                <div className="imgbox">
-                  <img src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                </div>
-                <br />
-                <div className="content">
-                  <h2>Testimonial Title</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam placeat et excepturi quibusdam. Vel sunt assumenda illo dicta officia soluta? Nam saepe harum consequuntur beatae unde consectetur iusto officiis ipsam.</p>
-                </div>
-              </div>
-            </div>
-            <br/> <br/> <br/>
-            
-          </div>
+          <div className="testimon"></div>
 
           <br /><br />
         </center>
