@@ -1,0 +1,73 @@
+.card {
+    width: 200px;
+    height: 300px;
+    perspective: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 6px 12px 5px black;
+    cursor: pointer;
+  }
+  
+
+
+  .cardImg {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .cardH3 {
+    background-color: transparent;
+    font-family: 'Raleway';
+    color: black;
+    /* margin-right: ; */
+  }
+
+  .cardP {
+    background-color: transparent;
+    font-family: 'Dosis';
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+    margin-left: 20px;
+  }
+
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-back {
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  

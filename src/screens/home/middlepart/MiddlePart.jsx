@@ -6,12 +6,31 @@ import BG_IMAGE from '../../../assets/bg_image.jpg'
 import CHESS_BANNER from '../../../assets/chess_banner.jpg'
 import BOARD_IMG from '../../../assets/board_image.png'
 import PAWN_KING from '../../../assets/pawn_king.jpg'
+import TestimonialsCards from './testimonials/components/TestimonialsCards'
 
 const MiddlePart = () => {
 
   // this cursor thingy doesn't work 
 
-
+  const testimonials = [
+    {
+      name: 'Armaan',
+      message: 'I feel like the courses given are amazing!, and brilliant!',
+      image: 'https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Armaan',
+      message: 'I feel like the courses given are amazing!, and brilliant!',
+      image: 'https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Armaan',
+      message: 'I feel like the courses given are amazing!, and brilliant!',
+      image: 'https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+   
+    // Add more testimonial objects as needed
+  ];
 
   return (
     <>
@@ -76,7 +95,18 @@ const MiddlePart = () => {
           </h2>
           <br />
           <br/>
-          <div className="testimon"></div>
+          <div className="testimonials">
+              
+    
+      {testimonials.map((testimonial, index) => (
+        <TestimonialsCards
+          key={index}
+          name={testimonial.name}
+          message={testimonial.message}
+          image={testimonial.image}
+        />
+      ))}
+          </div>
 
           <br /><br />
         </center>

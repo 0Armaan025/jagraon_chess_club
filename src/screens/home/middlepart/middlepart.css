@@ -167,72 +167,9 @@ body {
   color: white;
 }
 
-.card {
-  margin-left: 50px;
-  cursor: pointer;
-  position: relative;
-  color: #fff;
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
-  padding: 30px 50px;
-  background-color: #fff;
-}
-
-.card:hover {
-  height: 400px;
-  width: 400px;
-}
-
-
-.imgBox img {
-  border-radius: 20px;
-}
-.testimonialrow {
+.testimonials {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
-}
-.content {
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  transform: translateY(-450px);
-  opacity: 0;
-  transition: 0.3s;
-  background-color: transparent;
-}
-
-.content:hover {}
-
-.content h2 {
-  background-color: transparent;
-}
-.content p {
-  background-color: transparent;
-  color: black;
-}
-
-.imgBox {
-  position: relative;
-  width: 100%;
-  z-index: 99;
-  height: 100%;
-  background-color: transparent;
-  transform: translateY(-140px);
-  
-}
-
-img {
-  width: 100%;
-  /* border-radius:10px; */
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); 
-}
-
-.card:hover > .content {
-  opacity: 1;
-  transform: translateY(-20px);
+  align-items: center;
+  justify-content: center;
 }

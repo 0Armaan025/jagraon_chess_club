@@ -23,6 +23,9 @@ const NavBar = () => {
           <a class="nav-link" href="#">Store</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">Blogs</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Rankings</a>
         </li>
         <li class="nav-item dropdown">
@@ -39,7 +42,7 @@ const NavBar = () => {
         <div className="spacer"></div>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/20625/avatar-bg.png" height="30px" width="30px"/>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/20625/avatar-bg.png" height="30px" width="30px" className='myProfile'/>
           </a>
         </li>
       </ul>
