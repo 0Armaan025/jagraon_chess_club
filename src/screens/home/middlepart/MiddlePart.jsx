@@ -109,6 +109,14 @@ const MiddlePart = () => {
           </div>
 
           <br /><br />
+          <hr className='myHr' />
+
+          <br/>
+          <h2 className='testimonialsText' style={{fontSize: "30px"}} >Submit a testimonial!</h2>
+          <h3 className='testimonialsText' >Your testimonial may also get picked to be shown in top 3 😎</h3>
+
+          
+
         </center>
       </div>
     </>
