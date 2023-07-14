@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.testimonialTextField {
+    height: 45px;
+    width: 320px;
+    justify-content: center;
+    text-align: center;
+    
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedbackField {
+    height: 130px;
+    padding-top: 10px;
+    width: 320px;
+    justify-content: center;
+    text-align: center;
+    
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}

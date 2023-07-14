@@ -7,6 +7,7 @@ import CHESS_BANNER from '../../../assets/chess_banner.jpg'
 import BOARD_IMG from '../../../assets/board_image.png'
 import PAWN_KING from '../../../assets/pawn_king.jpg'
 import TestimonialsCards from './testimonials/components/TestimonialsCards'
+import SendTestimonial from './send-testimonial/SendTestimonial'
 
 const MiddlePart = () => {
 
@@ -114,7 +115,9 @@ const MiddlePart = () => {
           <br/>
           <h2 className='testimonialsText' style={{fontSize: "30px"}} >Submit a testimonial!</h2>
           <h3 className='testimonialsText' >Your testimonial may also get picked to be shown in top 3 😎</h3>
-
+          <br/>
+          <SendTestimonial/>
+          <br/>
           
 
         </center>
